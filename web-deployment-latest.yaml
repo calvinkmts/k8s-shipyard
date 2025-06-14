@@ -11,11 +11,11 @@ metadata:
     app: synergychat-web
   name: synergychat-web
   namespace: default
-  resourceVersion: "102816"
+  resourceVersion: "107000"
   uid: f877887a-8562-4b8c-95a8-d1015afcdf60
 spec:
   progressDeadlineSeconds: 600
-  replicas: 10
+  replicas: 3
   revisionHistoryLimit: 10
   selector:
     matchLabels:
@@ -52,8 +52,8 @@ status:
     reason: NewReplicaSetAvailable
     status: "True"
     type: Progressing
-  - lastTransitionTime: "2025-06-13T17:29:58Z"
-    lastUpdateTime: "2025-06-13T17:29:58Z"
+  - lastTransitionTime: "2025-06-14T09:45:26Z"
+    lastUpdateTime: "2025-06-14T09:45:26Z"
     message: Deployment has minimum availability.
     reason: MinimumReplicasAvailable
     status: "True"
