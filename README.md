@@ -3,7 +3,7 @@
 ## Starting the server
 
 ```bash
-minikube start --extra-config "apiserver.cors-allowed-origins=["http://boot.dev"]"
+minikube start --driver=docker --extra-config "apiserver.cors-allowed-origins=["http://boot.dev"]"
 ```
 
 then
